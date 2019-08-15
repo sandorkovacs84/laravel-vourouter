@@ -29,7 +29,7 @@ Vue.component('s-home', require('./components/Home.vue').default);
  */
 const Home = require('./components/Home.vue').default
 const Contact = { template: '<div>Contact</div>'}
-const Faq = { template: '<div>Intrebari si raspunsuri</div>'}
+const Faq = require('./components/Faq.vue').default
 const Courses = { template: '<div>Cursuri Web</div>'}
 
 const routes = [
@@ -40,7 +40,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-    routes
+    routes,
+    mode: 'history',
 })
 /**
  * Next, we will create a fresh Vue application instance and attach it to

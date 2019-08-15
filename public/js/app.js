@@ -1851,6 +1851,156 @@ module.exports = function isBuffer (obj) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Faq.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Faq.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=script&lang=js& ***!
@@ -37233,6 +37383,297 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Faq.vue?vue&type=template&id=5546b00a&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Faq.vue?vue&type=template&id=5546b00a& ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-8 col-xs-12" }, [
+          _c("h1", [_vm._v("ÎNTREBĂRI ȘI RĂSPUNSURI")]),
+          _vm._v(" "),
+          _c("p", [
+            _c("strong", [
+              _vm._v(
+                "Iti doresti sa urmezi un curs de web development? Vrei mai multe informatii despre programa cursului, precum si alte detalii?"
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Publicul doritor de a invata un curs de web development au multe intrebari la inceput de drum; majoritatea intrebarilor fiind despre cum se desfasoara acest curs."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Pentru ca tu sa ai toate informatiile necesare si sa te poti inscrie la acest curs de web development, am pregatit o lista de intrebari frecvente care imi sunt adesea adresate. In urma intrebarilor vei gasi si raspunsurile pe care le cauti."
+            )
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-4 col-xs-12" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("p", [_vm._v(" ")]),
+          _vm._v(" "),
+          _c("p", [_vm._v(" ")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cum a pornit ideea de a preda cursul?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Ideea de a preda un curs de web development a venit din nevoia mare de programatori in piata muncii. Angajatorii cauta mereu candidati specializati in acest domeniu, dar multi dintre ei nu au pregatirea sau experienta necesara."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Si cum experienta se castiga ori la locul de munca, ori in internship-uri, lucru asupra caruia nu am prea mult control, macar pregatirea in domeniu sa fie locul unde imi las amprenta asupra viitorilor programatori."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cine este trainerul?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Trainerul este Sandor Kovacs, specialist in IT cu o experienta de peste 10 ani in domeniu. El are experienta cu munca reala in IT, cateva dintre tehnologii cu care lucreaza: PHP, MySQL, HTML, CSS, JavaScript, jQuery, Symfony, Drupal, WordPress, CodeIgniter si multe altele."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [
+            _vm._v(
+              "Care sunt conditiile pentru a aplica la un curs de web development?"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Orice persoana cu varsta minina de 14 ani, care are un interes pentru IT, cu sau fara experienta, care poate sa indeplineasca conditiile pentru inscrierea la cursul de web development. Sunt in avantaj cei care au cunostinte bune de limba engleza, sunt atenti la detalii si sunt motivati sa se dezvolte in acest domeniu."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cum ma inscriu la cursul de web development?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Te poti inscrie specificand cursul (PHP, MySQL, HTML, CSS, WordPress) pe care doresti sa il urmezi, datele tale de contact, un CV actualizat sau o scurta descriere a ta."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [
+            _vm._v(
+              "Nu am experienta sau studii in domeniul IT, pot urma acest curs?"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Da, te poti inscrie la anumite cursuri (tehnologii) chiar dacă nu ai experiență. Există însă și cursuri speciale pentru programatori juniori care necesita cunoștințe de baza in web development."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Dorinta de invatare e cea mai importanta, iar eu te voi indruma in aceasta cale."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Pana cand pot sa ma inscriu?")]),
+          _vm._v(" "),
+          _c("p", [_vm._v("Inscrierile sunt deschise in orice moment.")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Dupa inscriere, ce se intampla?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Intr-o prima faza se efectueaza o evaluare, dupa care analizez nivelul notiunilor tale. In functie de rezultatul obtinut iti voi crea un plan personalizat."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Evaluarea consta intr-un interviu online de 30 minute cu toti aplicantii."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("In ce consta evaluarea?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "In cadrul evaluarii voi incerca sa stabilesc nivelul informatiilor tale dar si a planurilor pe care le ai."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cat dureaza acest curs de web development?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "In functie de tehnologiile alese, cursurile sunt personalizate si durata acestora e intre 2-4 luni. Acestea vor desfasura sub forma de sedinte (2 ore/ saptamana)."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cand are loc cursul de web development?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Cursul de web development are loc de regula dupa-masa, dupa ora 17 si/sau in weekend."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [
+            _vm._v("Care este structura cursului de web development?")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Cursurile sunt personalizate in functie de fiecare cursant si in functie de nivelul informatiilor pe care le detii din domeniu."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Intalnirile/sedintele saptamanale sunt online/face-to-face cu Sandor cu durata a 2 ore/ saptamana. Fiecare cursant primeste lucru individual care este supravegheat de trainer."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [
+            _vm._v(
+              "Primesc certificat / diploma de absolvire la finalul cursului?"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Nu, dar la finalul cursului se efectueaza o evaluare a cunostintelor dobandite, iar in cazul in care rezultatul este unul bun, vei primi o recomandare."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [
+            _vm._v(
+              "Dupa absolvire, sunt ajutat/a sa imi gasesc un loc de munca?"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Cursantii care sunt implicati, ambitiosi si care pe parcursul cursului obtin rezultate foarte bune, le voi oferi o recomandare catre firme cu care colaborez."
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cat costa cursul?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n        Costurile nu difera in functie de oras, intrucat cursurile se pot face si online.\n        Pentru acest curs de web development e nevoie de un buget intre 600-1000euro (se stabileste in functie de planul cursului).\n      "
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col" }, [
+          _c("h3", [_vm._v("Cum platesc costurile cursului?")]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Costurile programului se plătesc tot la doua saptamani, online, prin transfer bancar."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "Pentru orice alte informatii sau pentru a te inscrie la acest curs de web development, nu ezita sa ma contactezi."
+            )
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Home.vue?vue&type=template&id=f2b6376c&":
 /*!*******************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Home.vue?vue&type=template&id=f2b6376c& ***!
@@ -52392,9 +52833,9 @@ var Home = __webpack_require__(/*! ./components/Home.vue */ "./resources/js/comp
 var Contact = {
   template: '<div>Contact</div>'
 };
-var Faq = {
-  template: '<div>Intrebari si raspunsuri</div>'
-};
+
+var Faq = __webpack_require__(/*! ./components/Faq.vue */ "./resources/js/components/Faq.vue")["default"];
+
 var Courses = {
   template: '<div>Cursuri Web</div>'
 };
@@ -52412,7 +52853,8 @@ var routes = [{
   component: Contact
 }];
 var router = new VueRouter({
-  routes: routes
+  routes: routes,
+  mode: 'history'
 });
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -52482,6 +52924,75 @@ if (token) {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/Faq.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/components/Faq.vue ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Faq_vue_vue_type_template_id_5546b00a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Faq.vue?vue&type=template&id=5546b00a& */ "./resources/js/components/Faq.vue?vue&type=template&id=5546b00a&");
+/* harmony import */ var _Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Faq.vue?vue&type=script&lang=js& */ "./resources/js/components/Faq.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Faq_vue_vue_type_template_id_5546b00a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Faq_vue_vue_type_template_id_5546b00a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Faq.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Faq.vue?vue&type=script&lang=js&":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/Faq.vue?vue&type=script&lang=js& ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Faq.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Faq.vue?vue&type=template&id=5546b00a&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/Faq.vue?vue&type=template&id=5546b00a& ***!
+  \************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_5546b00a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Faq.vue?vue&type=template&id=5546b00a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Faq.vue?vue&type=template&id=5546b00a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_5546b00a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Faq_vue_vue_type_template_id_5546b00a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
