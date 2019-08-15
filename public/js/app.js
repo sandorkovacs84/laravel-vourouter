@@ -52853,8 +52853,8 @@ var routes = [{
   component: Contact
 }];
 var router = new VueRouter({
-  routes: routes,
-  mode: 'history'
+  routes: routes // mode: 'history',
+
 });
 /**
  * Next, we will create a fresh Vue application instance and attach it to
