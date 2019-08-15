@@ -41,7 +41,7 @@ const routes = [
 
 const router = new VueRouter({
     routes,
-    // mode: 'history',
+    mode: 'history',
 })
 /**
  * Next, we will create a fresh Vue application instance and attach it to

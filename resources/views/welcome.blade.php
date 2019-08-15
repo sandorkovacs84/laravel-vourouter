@@ -7,7 +7,7 @@
         <title>Cursuri Web - Sandor Kovacs - Web Trainer</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space+Mono">
 
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="{{ asset('js/app.js') }}" defer></script>
