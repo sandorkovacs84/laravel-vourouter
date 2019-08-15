@@ -2118,6 +2118,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37708,7 +37709,9 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-6 col-xs-12" })
+        _c("div", { staticClass: "col-6 col-xs-12" }, [
+          _c("img", { attrs: { src: "images/main1.jpg" } })
+        ])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [

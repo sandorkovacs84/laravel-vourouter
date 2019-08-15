@@ -11,6 +11,7 @@
       </p>
     </div>
     <div class="col-6 col-xs-12">
+      <img src="images/main1.jpg" >
     </div>
 </div>
 
