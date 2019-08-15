@@ -7,6 +7,9 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+window.VueRouter = require('vue-router').default;
+
+// Vue.use(VueRouter)
 
 /**
  * The following block of code may be used to automatically register your
@@ -19,8 +22,26 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i);
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('s-home', require('./components/Home.vue').default);
 
+/**
+ * Vue Routes 
+ */
+const Home = require('./components/Home.vue').default
+const Contact = { template: '<div>Contact</div>'}
+const Faq = { template: '<div>Intrebari si raspunsuri</div>'}
+const Courses = { template: '<div>Cursuri Web</div>'}
+
+const routes = [
+    { path: '/', component: Home },
+    { path: '/cursuri-web', component: Courses },
+    { path: '/intrebari-si-raspunsuri', component: Faq },
+    { path: '/contact', component: Contact },
+]
+
+const router = new VueRouter({
+    routes
+})
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -29,4 +50,5 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    router,
 });
